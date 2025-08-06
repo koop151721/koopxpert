@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KoopXpert – KFZ-Sachverstand mobil</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #f5f5f5;
+      --accent: #d97700;
+      --highlight: #4e5456;
+      --text: #1f1f1f;
+      --bg: #f1f1f1;
+      --card: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .startscreen {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: var(--card);
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .startscreen h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: var(--highlight);
+    }
+
+    .startscreen p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      color: #555;
+    }
+
+    .startscreen .buttons {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    .startscreen a {
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      background-color: var(--accent);
+      color: white;
+      text-decoration: none;
+      border-radius: 0.75rem;
+      transition: background-color 0.3s;
+    }
+
+    .startscreen a:hover {
+      background-color: #b86300;
+    }
+  </style>
+</head>
+<body>
+  <div class="startscreen">
+    <h1>Willkommen bei Koop<span style="color: var(--accent)">X</span>pert</h1>
+    <p>Wählen Sie den passenden Bereich für Ihr Anliegen:</p>
+    <div class="buttons">
+      <a href="gutachten.html">🧾 Gutachten anfordern</a>
+      <a href="kaufberatung.html">🚗 Fahrzeugkauf prüfen lassen</a>
+    </div>
+  </div>
+</body>
+</html>
